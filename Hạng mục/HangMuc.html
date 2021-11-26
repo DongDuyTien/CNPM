@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Product Detail</title>
+</head>
+<body>
+    <h2>Tên hạng mục</h2>
+    <section id="boxs">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products.jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products (1).jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products (2).jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products (3).jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products (4).jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products (5).jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products (6).jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products (7).jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products.jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products (1).jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products (2).jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products (3).jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products (4).jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products (5).jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products (6).jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 box">
+            <div class="content">
+              <div class="img-container">
+                <img src="Image/Featured Products (7).jpg">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-12 text-center">
+        <button id = "showMore">Xem thêm</button>
+      </div>
+      <hr/>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $("#showMore").click(function(){
+        $("#boxs .box:hidden").slice(0,4).slideDown();
+        if($("#boxs .box:hidden").length == 0)
+        {
+          $("#showMore").fadeOut("slow");
+        }
+      });
+    </script>
+
+</body>
+</html>
