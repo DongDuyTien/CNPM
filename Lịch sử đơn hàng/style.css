@@ -1,0 +1,84 @@
+.container{
+    float: left;
+    margin-top: 240px;
+    width: 100%;
+}
+
+.order-history{
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.order-header{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+}
+
+.orders{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.stt{
+    width: 5%;
+    border-bottom: 1.5px solid #E1E1E1;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.order-name{
+    width: 40%;
+    border-bottom: 1.5px solid #E1E1E1;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.customer-name{
+    width: 20%;
+    border-bottom: 1.5px solid #E1E1E1;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.date{
+    width: 20%;
+    border-bottom: 1.5px solid #E1E1E1;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.status{
+    width: 15%;
+    border-bottom: 1.5px solid #E1E1E1;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.status p{
+    margin: 0 auto;
+    
+    border-radius: 100px;
+    display: inline-block;
+    width: 75px;
+    text-align: center;
+    padding: 8px;
+}
+
+.status .done{
+    background: #29CC97;
+}
+
+.status .delivering{
+    background: #FEC400;
+}
+
+.status .cancel{
+    background: #F12B2C;
+}
