@@ -1,0 +1,98 @@
+.container{
+    display: flex;
+}
+.container .image{
+    width: 736px;
+    height: 700px;
+    background: #F4F4F2;
+    text-align: center;
+}
+
+img{
+    width: 482px;
+    height: 464px;
+   margin-top: 70px;
+}
+
+.detail{
+    margin-left: 30px;
+}
+
+.detail a{
+    text-decoration: none;
+    color: black;
+}
+
+.detail ion-icon{
+    margin-top: 7px;
+}
+
+.back{
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.code{
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+}
+
+.code span{
+   padding-top: 5px;
+   font-size: 20px;
+}
+
+.code .status{
+    margin-left: 100px;
+    background:  #FEC400;
+    border-radius: 100px;
+    color: white;
+    padding: 5px;
+    width: 120px;
+    height: 24px;
+}
+
+.name{
+    margin-top: 25px;
+}
+
+.name span{
+    font-size: 20px;
+}
+
+.name p{
+    max-width: 250px;
+    color: #65635F;
+}
+
+.quantity{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.total-container{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.subtotal{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
